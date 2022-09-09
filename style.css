@@ -72,7 +72,7 @@ p {
 
 /* banner_image */
 .banner_image {
-    background: url('images/kumo-background-header.jpg') no-repeat center;
+    background: url('images/kumo-background-header.jpg');
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -115,6 +115,31 @@ p {
     color: white;
 }
 
+.card {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.card::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.card span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
 /* Contact us */
 
 .icons {
@@ -130,7 +155,7 @@ p {
 }
 
 .icons i:hover {
-    font-weight: 800;
+    font-weight: 1000;
 }
 
 /* Style inputs */
@@ -158,11 +183,6 @@ input[type=submit]:hover {
 }
 
 /* Style the container/contact section */
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-}
 
 /* Create two columns that float next to eachother */
 .column {
@@ -189,6 +209,18 @@ input[type=submit]:hover {
 
 .footer a {
     color: #fff;
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 600px) {
