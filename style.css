@@ -110,17 +110,16 @@ p {
 /* Services */
 
 .services {
-    padding: 50px;
-    text-align: justify;
     color: white;
+    text-align: center;
 }
 
 .card {
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
-    padding: 16px;
-    margin: 16px 0
+    padding: 50px;
+    margin: 16px 20px 20px 20px
 }
 
 .card::after {
@@ -130,14 +129,18 @@ p {
 }
 
 .card img {
-    float: left;
+    float: right;
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .card span {
     font-size: 20px;
     margin-right: 15px;
+}
+
+.card ul li {
+    list-style: square;
 }
 
 /* Contact us */
@@ -197,6 +200,10 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+.row .column ul li {
+    padding: 10px;
 }
 
 /* footer */
