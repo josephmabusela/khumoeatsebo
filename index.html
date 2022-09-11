@@ -2,59 +2,94 @@
 <html lang="en">
 
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Khumo Ea Tsebo</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<title>Khumo EA Tsebo</title>
 	</head>
 
 	<body>
+		<div class="container">
+			<!--Nav bar-->
+			<ul class="topnav">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li class="right"><a href="#">Logo</a></li>
+				<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a> -->
+			</ul>
 
-		<div class="main_container" id="home">
+			<!-- Header background and logo -->
+			<section class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="images/kumo-background-header.jpg" style="width:100%">
 
-			<div class="topnav" id="myTopnav">
-				<a href="#home" class="active">Home</a>
-				<a href="#services">Services</a>
-				<a href="#contact">Contact</a>
-				<a href="#about">About</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i>
-				</a>
-			</div>
+				</div>
 
-			<div class="banner_image"></div>
-			<div class="banner_content">
-				<h1>KHUMO EA TSEBO<br> <span>Farming & Advisory Services<span></h1>
-			</div>
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="images/kumo-background-header.jpg" style="width:100%">
+				</div>
 
-			<div class="about" id="about">
-				<h1 class="title">Intoduction</h1>
-				<p>We are a black owned agricultural business that commercialises
-					developing farmiers. We are also turnaround specialists that develop
-					and implement turnaround strategies in the agricultural and
-					manufacturing sector KET has been in existence since 2004 and boasts
-					vast experience in business turnarounds, development, implemention
-					and enterprise development Last season we have planted over <br> 3000
-					hectares of grains in 5 provinces, namely: <br />Gauteng,
-					Mpumalanga, Free State, North West and Limpopo. This year we are
-					adding Kwa-Zulu Natal and Eastern Cape.</p>
-			</div>
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="images/kumo-background-header.jpg" style="width:100%">
 
-			<div class="services" id="services">
-				<h1 class="title">Our Services</h1>
+				</div>
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</section>
+			<!--Top container-->
+
+			<section class="top-container">
+				<header class="showcase" id="about">
+					<h1 class="title">Intoduction</h1>
+					<p>
+						We are a black owned agricultural business that commercialises
+						developing farmiers. We are also turnaround specialists that develop
+						and implement turnaround strategies in the agricultural and
+						manufacturing sector KET has been in existence since 2004 and boasts
+						vast experience in business turnarounds, development, implemention
+						and enterprise development Last season we have planted over <br> 3000
+						hectares of grains in 5 provinces, namely: <br />Gauteng,
+						Mpumalanga, Free State, North West and Limpopo. This year we are
+						adding Kwa-Zulu Natal and Eastern Cape.
+					</p>
+
+				</header>
+				<div class="top-box top-box-a">
+					<h4>Our Team</h4>
+					<p class="price">Team image</p>
+
+				</div>
+				<div class="top-box top-box-b">
+					<h4>Farm Team</h4>
+					<p class="price">Farm team</p>
+
+				</div>
+			</section>
+
+			<!--Info section-->
+			<section class="info" id="services">
+				<h1 class="title">Services</h1>
 				<p>KET is an aggregator for Tiger Brands and just last season (2021-2022) has aggegated over 30 farmers
 					in 5 provinces planting maize, sugar beans and small white beans.
 					<br> For the first time KET has also supplied Mjesty Oil Mills with soybean and plans to grow this
 					relationship to include sunflower in the next season
 				</p>
-			</div>
-
-			<div class="card">
-				<img src="images/bg2.png" alt="Avatar" style="width:90px">
-				<h2>Summary of services</h2>
+				<h2>Summar of services</h2>
 				<ul>
 					<li>Develop and implemention of turnaround solutions focusing on businesses in agriculture and
 						manufacturing</li>
@@ -69,19 +104,15 @@
 					<li>Feasibility Studies and Business Planning</li>
 					<li>Enterprise Development</li>
 				</ul>
-			</div>
+			</section>
 
-			<div class="services" id="services">
+			<section class="info">
 				<h1 class="title">Relationships</h1>
 				<p>KET has recently established relationships with Tiger Brands and Tiger Brands distributors <br>
 					and thus the entity is able to supply certain household products. <br>
 					We have done so through our farming operations, relationships with local farmers and the
 					Johannesburg Fresh Produce Market.
 				</p>
-			</div>
-
-			<div class="card">
-				<img src="images/bg2.png" alt="Avatar" style="width:90px">
 				<h2>Development Finance Insitutions</h2>
 				<ul>
 					<li>Product SA</li>
@@ -97,10 +128,6 @@
 					<li>National Cleaner Production (NCP)</li>
 					<li>Masisizane Fund - Old Mutual</li>
 				</ul>
-			</div>
-
-			<div class="card">
-				<img src="images/bg2.png" alt="Avatar" style="width:90px">
 				<h2>Manufacturing Clients</h2>
 				<ul>
 					<li>Royal van Zanten</li>
@@ -112,24 +139,30 @@
 					<li>Haggie Rand</li>
 					<li>Ainsworth Engineering</li>
 				</ul>
-			</div>
+			</section>
 
-			<div class="container" id="contact">
+			<!--Form section-->
+
+			<section class="contact" id="contact">
 				<div style="text-align:center">
 					<h1 class="title">Our Contacts</h1>
 				</div>
 				<div class="row">
-					<div id="contact-image" class="column">
-						
+					<div class="contact-bg-img"></div>
+					<div class="column">
 						<h2>You can find us at</h2>
-						<h4>Email</h4>
-						<li><i class="fa fa-envelope fa-2x"> : info@khutsoeatsebo.com</i></li>
-						<li><i class="fa fa-envelope fa-2x"> : thulomo@khutsoeatsebo.com</i></li>
-						<h4>Phone Number</h4>
-						<ul>
-							<li><i class="fa fa-phone fa-2x"> : 073 373 3172</i></li>
-							<li><i class="fa fa-phone fa-2x"> : 079 664 3906</i></li>
-						</ul>
+						<div class="contact-text">
+							<h4>Email</h4>
+							<ul>
+								<li><i class="fa fa-envelope-open fa-2x"> : info@khutsoeatsebo.com</i></li>
+								<li><i class="fa fa-envelope-open fa-2x">: thulomo@khutsoeatsebo.com</i></li>
+							</ul>
+							<h3>Phone Number</h3>
+							<ul>
+								<li><i class="fa fa-phone fa-2x"> : 073 373 3172</i></li>
+								<li><i class="fa fa-phone fa-2x"> : 079 664 3906</i></li>
+							</ul>
+						</div>
 						<div class="icons">
 							<a href="https://www.linkedin.com/in/khumo-ea-tsebo-195a0823b/" target="_blank"><i
 									class="fa fa-linkedin fa-2x"></i></a></li>
@@ -139,6 +172,8 @@
 							<a href="https://www.facebook.com/Khumo-Ea-Tsebo-102727542457573" target="_blank"><i
 									class="fa fa-facebook fa-2x"></i></a>
 						</div>
+						<i class="fa fa-map-pin fa-2x"></i>
+						<p>DEK Suite C3, Carlswal Close Park, Carlswal, Midrand</p>
 					</div>
 					<div class="column">
 						<h2>Get in touch</h2>
@@ -154,13 +189,15 @@
 						</form>
 					</div>
 				</div>
-			</div>
-			<div class="footer">
-				<i class="fa fa-location-pin fa-2x"></i>
-				<p>DEK Suite C3, Carlswal Close Park, Carlswal, Midrand</p>
-				<a href="#">© khumoaetsebo</a>
-			</div>
+			</section>
+
+			<!--Footer section-->
+			<footer>
+				<p>© khumoaetsebo</p>
+			</footer>
+			<!--End of container-->
 		</div>
+
 		<script>
 			function myFunction() {
 				var x = document.getElementById("myTopnav");
@@ -169,6 +206,26 @@
 				} else {
 					x.className = "topnav";
 				}
+			}
+
+			let slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				let i;
+				let slides = document.getElementsByClassName("mySlides");
+				let dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) { slideIndex = 1 }
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+				setTimeout(showSlides, 4000); // Change image every 4 seconds
 			}
 		</script>
 	</body>
