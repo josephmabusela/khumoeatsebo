@@ -310,7 +310,7 @@ input[type=submit]:hover {
 
 
 
-@media only screen and (max-width: 500px) and (min-width: 390px) {
+@media only screen and (max-width: 600px) and (min-width: 370px) {
 
     .topnav a:not(:first-child) {
         display: none;
@@ -359,6 +359,50 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 300px) {
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.active {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: left;
+        display: block;
+    }
+
+    .topnav.responsive a.icon {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: right;
+        display: block;
+        text-align: left;
+    }
+
+
+    .banner_content {
+        margin-top: 35px;
+    }
+
+    .ourteam_wrapper {
+        width: 100%;
+    }
+
+    .columns {
+        width: 100%;
+    }
+
+    .contact-column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 
     .prev,
     .next {
