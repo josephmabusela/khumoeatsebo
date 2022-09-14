@@ -126,7 +126,8 @@ p {
 /* Services */
 
 .summary {
-    padding: 8px;
+    margin: 20px;
+
 }
 
 .summary .header {
