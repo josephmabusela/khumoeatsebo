@@ -126,6 +126,7 @@ p {
 
 .summary {
     margin: 20px;
+    border: 1px solid black;
 
 }
 
@@ -142,6 +143,7 @@ ul.lists {
 
 .summary li {
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .columns {
