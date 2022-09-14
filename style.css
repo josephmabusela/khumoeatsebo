@@ -346,6 +346,10 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    .about {
+        text-align: center;
+    }
+
     .columns {
         width: 100%;
     }
@@ -358,7 +362,7 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-width: 300px) {
+@media (max-width: 480px) {
 
     .topnav a:not(:first-child) {
         display: none;
@@ -392,6 +396,10 @@ input[type=submit]:hover {
 
     .ourteam_wrapper {
         width: 100%;
+    }
+
+    h1.about {
+        text-align: center;
     }
 
     .columns {
