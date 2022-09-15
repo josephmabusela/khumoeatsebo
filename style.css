@@ -36,17 +36,6 @@ p {
     color: #a9a9a9;
 }
 
-.btn a {
-    width: 180px;
-    height: 35px;
-    line-height: 35px;
-    border: 2px solid #fb2274;
-    color: #fb2274;
-    display: block;
-    margin: 25px auto 0;
-    text-align: center;
-}
-
 .main_container {
     position: relative;
 }
@@ -120,6 +109,7 @@ p {
     display: grid;
     text-align: center;
     padding: 2em;
+    font-size: 25px;
 }
 
 /* Services */
@@ -128,23 +118,24 @@ p {
     border: 1px solid black;
     width: 99%;
     margin-left: 8px;
-
 }
 
-.summary .header {
+.lists .header {
     background-color: rgb(243, 175, 50);
-    color: #111;
-    font-size: 25px;
+    color: whitesmoke;
+    font-size: 40px;
     text-align: center;
 }
 
-ul.lists {
-    list-style-type: square;
+.lists li {
+    font-size: 25px;
+    padding: 8px;
 }
 
 .summary li {
     border-bottom: 1px solid #111;
     text-align: center;
+    padding: 8px;
 }
 
 .columns {
@@ -312,7 +303,7 @@ input[type=submit]:hover {
 
 
 
-@media only screen and (max-width: 600px) and (min-width: 370px) {
+@media only screen and (max-width: 1280px) and (min-width: 360px) {
 
     .topnav a:not(:first-child) {
         display: none;
@@ -353,7 +344,9 @@ input[type=submit]:hover {
     }
 
     .summary {
-        width: 100%;
+        width: 96%;
+        margin-left: 8px;
+        padding: 8px;
     }
 
     .columns {
